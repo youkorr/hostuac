@@ -4,7 +4,7 @@
 #include "esphome/components/speaker/speaker.h"
 
 #ifdef USE_ESP32
-#include "usb/usb_host.h"
+#include "driver/gpio.h"
 #include "usb/uac_host.h"
 
 namespace esphome {
