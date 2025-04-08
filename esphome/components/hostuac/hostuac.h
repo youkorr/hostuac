@@ -1,7 +1,7 @@
 #pragma once
 #include "esphome.h"
 #include "esphome/components/media_player/media_player.h"
-#include "driver/usb_host.h"  // Cheval d'entrée principal USB
+#include "usb/usb_host.h"  // Cheval d'entrée principal USB
 
 namespace esphome {
 namespace hostuac {
