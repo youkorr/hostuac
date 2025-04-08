@@ -5,7 +5,7 @@
 
 #ifdef USE_ESP32
 #include "driver/gpio.h"
-#include "usb/uac_host.h"
+#include "driver/usb_host.h"
 
 namespace esphome {
 namespace hostuac {
